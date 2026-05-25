@@ -1,8 +1,7 @@
-import 'package:flutter_dotenv/flutter_dotenv.dart';
+
 
 class ApiConfig {
-  static String get baseUrl =>
-      dotenv.env['API_BASE_URL'] ?? 'http://172.17.51.141:3000';
+  static String get baseUrl => 'https://multilingual-chat-backend-mnwo.onrender.com';
 
   static String get socketUrl => baseUrl;
 
